@@ -11,11 +11,7 @@ import Card from '../Components/card';
 
 const Home = () => {
 
-    const [limit, setLimit] = useState(3);
-
-    const handleSeeMore = () => {
-        setLimit(limit + 3);
-    };
+    const [limit] = useState(3);
 
     return (
         <div className={`${styles.flexCenter} flex-col mb-16`}>

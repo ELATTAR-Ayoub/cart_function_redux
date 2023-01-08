@@ -1,8 +1,5 @@
 import React from 'react';
 
-// styles
-import styles from './styles';
-
 // routes
 import Home from './pages/Home.jsx';
 import Products from './pages/Products/index';

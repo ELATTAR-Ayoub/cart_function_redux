@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from '../styles';
 
 // redux
 import { useSelector, useDispatch } from "react-redux";
-import { addItem, deleteItem } from "../actions/cartAction";
+import { addItem } from "../actions/cartAction";
 
 
 const Card = ({ hoodie }) => {

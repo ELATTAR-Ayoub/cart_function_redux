@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import styles from '../../styles';
-import { Link } from "react-router-dom";
 import hoodies from '../../hoodies.json';
 
 // 
@@ -9,7 +8,7 @@ import Card from '../../Components/card';
 
 const Men = () => {
 
-    const [limit, setLimit] = useState(6);
+    const [limit] = useState(6);
     const menHoodies = hoodies.filter(hoodie => hoodie.genre === 'men');
 
     return (
