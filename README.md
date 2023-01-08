@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with This React App
 
 This is a React application built using Redux and Tailwind CSS.
 
