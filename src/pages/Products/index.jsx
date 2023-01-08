@@ -4,8 +4,9 @@ import styles from '../../styles';
 import { Link } from "react-router-dom";
 import hoodies from '../../hoodies.json';
 
-// 
+// comp
 import Card from '../../Components/card';
+
 
 const Products = () => {
 
