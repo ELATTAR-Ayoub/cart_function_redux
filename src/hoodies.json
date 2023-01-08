@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "ASOS DESIGN oversized zip up hoodie in beige",
+      "price": 199.99,
+      "imgSrc": "https://images.asos-media.com/products/asos-design-oversized-zip-up-hoodie-in-beige/203604375-1-birch?$n_320w$&wid=317&fit=constrain",
+      "genre": "men"
+    },
+    {
+      "id": 2,
+      "title": "Topman heavyweight extreme oversized sweatshirt in stone",
+      "price": 126.00,
+      "imgSrc": "https://images.asos-media.com/products/topman-heavyweight-extreme-oversized-sweatshirt-in-stone/202112027-1-stone?$n_640w$&wid=513&fit=constrain",
+      "genre": "men"
+    },
+    {
+      "id": 3,
+      "title": "White hoodie for men women novelty unisex hoodies pullover sweatshirt",
+      "price": 226.99,
+      "imgSrc": "https://images.asos-media.com/products/topman-oversized-hoodie-with-back-print-in-white/202350602-1-white?$n_320w$&wid=317&fit=constrain",
+      "genre": "men"
+    },
+    {
+      "id": 4,
+      "title": "PLAN DESIGN women oversized DBZ > Naruto up hoodie in beige",
+      "price": 236.00,
+      "imgSrc": "https://images.unsplash.com/photo-1590879812269-5257236e753e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "genre": "women"
+    },
+    {
+      "id": 5,
+      "title": "Topwoman heavyweight extreme oversized hoodie in black sweatshirt",
+      "price": 268.00,
+      "imgSrc": "https://images.unsplash.com/photo-1669479032913-6e9b057677e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "genre": "women"
+    },
+    {
+      "id": 6,
+      "title": "black&Red and white hoodie for women novelty unisex hoodies swwet",
+      "price": 236.99,
+      "imgSrc": "https://images.unsplash.com/flagged/photo-1580285974433-003292b4f202?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+      "genre": "women"
+    }
+  ]

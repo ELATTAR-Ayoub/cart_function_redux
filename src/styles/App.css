@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* @layer base { */
+  /* @font-face { */
+    /* font-family: "Plain"; */
+    /* src: url('../fonts/Plain/Plain-Light.otf'); */
+    /* font-weight: normal; */
+    /* font-style: normal; */
+    /* letter-spacing: 0.025em; */
+  /* } */
+/*  */
+  /* @font-face { */
+    /* font-family: "Silk_Serif"; */
+    /* src: url('../fonts/Silk_Serif/Silk_Serif_ExtraLight.otf'); */
+    /* font-weight: 300; */
+    /* font-style: normal; */
+  /* } */
+/* } */
+
+:root {
+  --primary-black: #121212;
+  --secondary-white: #FFFFFF;
+  --primary-color: #6F00FF;
+  --primary-color-tint: #8E37FF;
+}
+
+.nav li, .nav .cart, .nav .cart svg path {
+  transition: 0.2s all;
+}
+
+.nav li:hover, .nav .cart:hover, .nav .cart:hover svg path {
+  color: var(--primary-color-tint);
+  fill: var(--primary-color-tint);
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+/*  */
+
+.Heroimg {
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1633292750937-120a94f5c2bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Button-P {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-white);
+  padding: 13px 48px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+
+.Button-P:hover {
+  background-color: var(--primary-color-tint);
+}
+
+.black-border-10 {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Cart {
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Card > div img {
+  transition: .3s all ease-in-out;
+}
+
+.Card:hover > div img {
+  transition: .3s all ease-in-out;
+  transform: scale(1.2);
+}
+
+/*  */
+
+.h1Section {
+  position: relative;
+  color: var(--secondary-white);
+}
+
+.h1Section::before {
+  content: '';
+  position: absolute;
+  background-color: var(--secondary-white);
+  height: 1.5px;
+  width: 4rem;
+  left: -4.5rem;
+  top: 55%;
+}
+
+.heroHeading {
+  color: transparent;
+  -webkit-text-stroke: .5px var(--secondary-white);
+}
+
+.heroHeading span:last-of-type {
+  color: var(--secondary-white);
+  -webkit-text-stroke: 0px;
+}
+
+@media (max-width: 768px) {
+  .h1Section {
+    position: relative;
+    color: var(--secondary-white);
+    letter-spacing: 1px;
+    left: 4.5rem;
+  }
+}
